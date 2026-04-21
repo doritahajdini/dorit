@@ -1,6 +1,7 @@
 import React from "react";
 import { PaperProvider,MD3LightTheme } from "react-native-paper";
 import PaperExamples from "./components/Paper";
+import Test from "./components/test";
 
 const theme={
   ...MD3LightTheme,
@@ -15,6 +16,7 @@ export default function App(){
     <PaperProvider theme={theme}>
       <PaperExamples/>
     </PaperProvider>
+    <Test/>
   );
 }
 
